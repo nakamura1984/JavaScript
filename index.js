@@ -10,7 +10,8 @@ window.addEventListener('load', function(){
     pullDownButton.removeAttribute("style")
   })
 
-  pullDownButton.addEventListener('click', function() {
-    console.log("click OK")
+  pullDownButton.addEventListener('mouseout', function(){
+    console.log("mouseout OK")
   })
+  
 })
